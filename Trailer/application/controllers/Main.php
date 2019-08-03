@@ -52,7 +52,7 @@ class Main extends CI_Controller{
       if (isset($_POST['id']) && $_POST['id'] > 0) {
         $peliculas = $_POST;
         $this->db_model->update($peliculas);
-        redirect('main/index');
+        redirect('main/trailer');
       }else{
         $patron = '%^ (?:https?://)? (?:www\.)? (?: youtu\.be/ | youtube\.com (?: /embed/ | /v/ | /watch\?v= ) ) ([\w-]{10,12}) $%x';
         $url = $_POST['trailerid'];
