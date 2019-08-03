@@ -32,7 +32,7 @@ try{
         redirect ('main/index');
     }else{
         $errorlogin = 'Usuario o Contraseña son invalidos';
-        redirect('main/login');
+        redirect('admin');
 
     }
 

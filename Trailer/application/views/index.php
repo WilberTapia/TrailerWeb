@@ -1,10 +1,8 @@
 <?php plantilla::aplicar();
-$base = base_url('base');
-?>
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+$base = base_url('base');?>
 
-  <body background="<?= $base; ?>/img/fondo.jpg" style="background-repeat: no-repeat;">
+
+<body background="<?= $base; ?>/img/fondo.jpg" style="background-repeat: no-repeat;">
 <div class="container" style="padding: 120px 310px;">
 <div class="card mb-3" style="max-width: 540px;">
   <div class="row no-gutters">
@@ -18,12 +16,11 @@ $base = base_url('base');
         más recientes trailers de toda la semana en español o ingles
         de las peliculas. No olvides tenemos los mas recientes trailes de
         la semana.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <p class="card-text"><small class="text-muted">Last updated 5 mins ago</small></p>
       </div>
     </div>
   </div>
 </div>
 </div>
 
-  </body>
-</html>
+</body>
